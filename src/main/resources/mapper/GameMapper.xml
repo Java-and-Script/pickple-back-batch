@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.pickple.batch.game.mapper.GameMapper">
+    <update id="updateGameStatus">
+        UPDATE game
+        SET status = #{status}
+        WHERE id = #{id};
+    </update>
+
+    <select id="findGamesByStatusAndPlayDateStartTimeBeforeNow" resultType="GameStatusUpdate">
+        <![CDATA[
+            SELECT id, status
+            FROM game
+            WHERE status = #{status}
+            AND CONCAT(play_date, ' ', play_start_time) <= DATE_FORMAT(#{nowDateTime}, '%Y-%m-%d %H:%i:%s')
+        ]]>
+    </select>
+    <select id="findGamesByStatusAndPlayDateEndTimeBeforeNow" resultType="GameStatusUpdate">
+        <![CDATA[
+            SELECT id, status
+            FROM game
+            WHERE status = #{status}
+            AND CONCAT(play_date, ' ', play_end_time) <= DATE_FORMAT(#{nowDateTime}, '%Y-%m-%d %H:%i:%s')
+        ]]>
+    </select>
+</mapper>
