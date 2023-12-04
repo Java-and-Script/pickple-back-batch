@@ -1,5 +1,5 @@
 # picple-back-batch
 
-![슬라이드2.jpeg](..%2F..%2F..%2F%EC%B5%9C%EC%A2%85%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%2F%EB%B0%B0%EC%B9%98%20%EA%B4%80%EB%A0%A8%20%EA%B8%B0%EB%8A%A5%2F%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C2.jpeg)
-![슬라이드3.jpeg](..%2F..%2F..%2F%EC%B5%9C%EC%A2%85%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%2F%EB%B0%B0%EC%B9%98%20%EA%B4%80%EB%A0%A8%20%EA%B8%B0%EB%8A%A5%2F%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C3.jpeg)
-![슬라이드4.jpeg](..%2F..%2F..%2F%EC%B5%9C%EC%A2%85%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%2F%EB%B0%B0%EC%B9%98%20%EA%B4%80%EB%A0%A8%20%EA%B8%B0%EB%8A%A5%2F%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C4.jpeg)
+![슬라이드4](https://github.com/Java-and-Script/pickple-back-batch/assets/92444744/e7c7f34d-3a4f-465f-9191-7c37b5d5485e)
+![슬라이드3](https://github.com/Java-and-Script/pickple-back-batch/assets/92444744/9cfd71cc-83b5-4283-8d2a-e7eac7c9fe2c)
+![슬라이드2](https://github.com/Java-and-Script/pickple-back-batch/assets/92444744/8881dc9e-a760-4e62-a5be-2301ea2061a0)
