@@ -6,9 +6,9 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 mybatis:
-  type-aliases-package: com.pickple.batch
+  type-aliases-package: pickple.back.batch
   configuration:
     map-underscore-to-camel-case: true
   mapper-locations: classpath:mapper/**/*.xml
-  type-handlers-package: com.pickple.batch
+  type-handlers-package: pickple.back.batch
 
